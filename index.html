@@ -16,17 +16,18 @@
     <main> <!--Conteúdo-->
         <div class="container"> <!--Div Pai (Container)-->
             <div class="cont"> <!--Div Menu-->
-                <h1>Pedido</h1>
-            </div>
-            <div class="form"> <!--Div Formulário-->
-                <form action="pedido.php" method="post"> <!--Formulário-->
-                    <label for="">Confirmar ?</label>
-                    <input type="button" value=""> <!--Botão Sim-->
-                </form> <!--Fechamento Formulário-->
+                <div class="conteudo">
+                    <h1>Pedido</h1>
+                    <p>Você aceita sair comigo hoje
+                        <br>
+                        para o restaurante ?
+                    </p>
+                    <button class="button" onclick="mostrarResposta()">Sim</button>
+                    <button id="nao" class="button" onmouseover="mudarPosicao()">Não</button>
+                </div>
             </div> <!--Fechamento Div Menu-->
         </div> <!--Fechamento Div Pai (Container)-->
     </main> <!--Fechamento Conteúdo-->
-
     <footer></footer> <!--Rodapé-->
 </body>
 
